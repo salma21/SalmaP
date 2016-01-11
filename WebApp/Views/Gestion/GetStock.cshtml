@@ -24,9 +24,7 @@
                         <tr>
                             <th>Produit</th>
                             <th>Qte</th>
-                            <th>Categorie</th>
-                          
-                            <th>Emplacement</th>
+                           
                             <th>Action</th>
                         </tr>
                     </tfoot>
@@ -39,11 +37,6 @@
                                 <td class="center">@item.produit</td>
                                 <td class="center">@item.Qte</td>
                                
-                                <td class="center">@item.Categorie_materiel.libelle</td>
-                               
-                                <td class="center">@item.Emplacement</td>
-
-                                <td>
 
                                     <a href="@Url.Action("EditStock", new { id = item.id })">&nbsp;<i class="fa fa-edit" title="Modifer"></i></a>
                                        </td>
